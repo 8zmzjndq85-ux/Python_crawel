@@ -5,10 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python 偵錯lesson5_1",
+            "name": "lesson5_1",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "lesson5_2",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolderBasename}/lesson5_2.py",
             "console": "integratedTerminal"
         },
 
