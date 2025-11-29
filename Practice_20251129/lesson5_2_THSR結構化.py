@@ -55,7 +55,7 @@ def main():
         get_news(page)
         schedule_and_fare(page)       
 
-        page.wait_for_timeout(3000)  # 等待3秒以觀察效果
+        page.wait_for_timeout(10000)  # 等待10秒以觀察效果
 
         browser.close()
 
