@@ -7,6 +7,9 @@ requires-python = ">=3.10"
 dependencies = [
     "crawl4ai>=0.7.7",
     "ipykernel>=7.1.0",
+    "nest>=0.4.4",
     "nest-asyncio>=1.6.0",
+    "pandas>=2.3.3",
     "playwright>=1.56.0",
+    "streamlit>=1.52.1",
 ]
